@@ -1,15 +1,15 @@
 class Databrief < Formula
   desc "Turn a data file into a prompt for an AI, offline, with a Do-not-share-data mode"
   homepage "https://github.com/Arfo-du-blo/DataBrief"
-  url "https://github.com/Arfo-du-blo/DataBrief/releases/download/v1.5.0/databrief-cli.cjs"
-  sha256 "882565c5acba36124b746e8c538dc6a19b766453d59f4889243a13a1bd44312d"
+  url "https://github.com/Arfo-du-blo/DataBrief/releases/download/v1.5.1/databrief-cli.cjs"
+  sha256 "178b322cff8ce20c43d1e6d97d4440f3bcccd2442a2fd3a5c45f4e693a85dcb5"
   license "GPL-3.0-or-later"
 
   depends_on "node"
 
   resource "manpage" do
-    url "https://github.com/Arfo-du-blo/DataBrief/releases/download/v1.5.0/databrief.1"
-    sha256 "670b4deb4af42f98eec898a847f3021cd43398be454b216596d5e65164fb1ef2"
+    url "https://github.com/Arfo-du-blo/DataBrief/releases/download/v1.5.1/databrief.1"
+    sha256 "bb5df2aa79d3810244ef9d87e15a99ce8866cb5a116e2acca7d356d5f7b53b52"
   end
 
   def install
